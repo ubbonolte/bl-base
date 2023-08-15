@@ -1,0 +1,11 @@
+<ng-container *ngIf="!displayGreeting">
+  <p>What is your name?</p>
+  <input
+    [(ngModel)]="userName">
+  <button
+    (click)="postUserInformation()">Send</button>
+</ng-container>
+<ng-container *ngIf="displayGreeting">
+  <p>{{greeting}} You are visitor number {{id}}</p>
+</ng-container>
+
