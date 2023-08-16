@@ -30,3 +30,4 @@ replay_pid*
 /backend/.mvn/
 /.idea/
 /frontend/node/
+/frontend/target/
